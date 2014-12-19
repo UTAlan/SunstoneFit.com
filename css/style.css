@@ -1,0 +1,239 @@
+body { 
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif; 
+    background: #F0F0F0;
+}
+
+a { color: #d36c2e; text-decoration: none; }
+a:hover { color: #d36c2e; text-decoration: underline; }
+
+.center { text-align: center; }
+
+#nav-main {
+    background: #d16e1d;
+}
+
+#nav-main .container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#nav-main #logo {
+    position: absolute;
+    background: #FFF;
+    margin: 0 0 0 -10px;
+    padding: 10px;
+    border: solid 1px #d16e1d;
+    border-top: 0px;
+}
+
+#nav-main #main-menu {
+    list-style: none;
+    float: left;
+    margin: 0 0 0 138px;
+    padding: 0 25px;
+}
+
+#nav-main #main-menu > li {
+    float: left;
+    font-size: 0.9em;
+    position: relative;
+    border-bottom: solid 5px transparent;
+}
+
+#nav-main #main-menu > li > a {
+    display: block;
+    padding: 25px 20px;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav-main #main-menu > li:hover {
+    border-bottom: solid 5px #8c0b05;
+}
+
+#nav-main #main-menu > li > ul {
+    display: none;
+    position: absolute;
+    top: 69px;
+    left: 0;
+    list-style: none;
+    z-index: 1050;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-top: solid 4px #8c0b05;
+}
+
+#nav-main #main-menu > li:hover > ul {
+    display: block;
+}
+
+#nav-main #main-menu > li > ul li {
+    background: #d16e1d;
+    border-bottom: solid 1px #FFF;
+}
+
+#nav-main #main-menu > li > ul li:hover {
+    border-color: #8c0b05;
+}
+
+#nav-main #main-menu > li > ul li a {
+    display: block;
+    padding: 10px;
+    color: #FFF;
+}
+
+#nav-main #main-menu > li > ul li a:hover {
+    text-decoration: none;
+}
+
+#nav-main #search {
+    float: right;
+    margin: 25px 0;
+    height: 20px;
+}
+
+#nav-main #search input {
+    border: 0;
+    outline-width: 0;
+    line-height: 20px;
+    height: 20px;
+    width: 125px;
+}
+
+div#content {
+    width: 1200px;
+    margin: 72px auto 125px;
+}
+
+#social_facebook {
+    float: left; 
+    background: #CCC url('../images/socialsprite.png') no-repeat 0 0; width: 32px; height: 32px;
+}
+
+#social_facebook:hover {
+    background: url('../images/socialsprite.png') 0 0 no-repeat, rgb(136,136,136); /* Old browsers */
+    background: url('../images/socialsprite.png') 0 0 no-repeat, -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(136,136,136,1) 100%); /* FF3.6+ */
+    background: url('../images/socialsprite.png') 0 0 no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(136,136,136,1)), color-  stop(100%, rgba(136,136,136,1))); /* Chrome,Safari4+ */
+    background: url('../images/socialsprite.png') 0 0 no-repeat, -webkit-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(136,136,136,1) 100%); /* 
+
+Chrome10+,Safari5.1+ */
+    background: url('../images/socialsprite.png') 0 0 no-repeat, -o-linear-gradient(top, rgba(238,238,238,1)0%, rgba(136,136,136,1) 100%); /* Opera 11.10+ */
+    background: url('../images/socialsprite.png') 0 0 no-repeat, -ms-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(136,136,136,1)100%); /* IE10+ */
+    background: url('../images/socialsprite.png') 0 0 no-repeat, linear-gradient(to bottom, rgba(238,238,238,1) 0%, rgba(136,136,136,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#565656', GradientType=0 ); /* IE6-9 */
+}
+
+#social_twitter {
+    float: left; 
+    background: #CCC url('../images/socialsprite.png') no-repeat 0 -42px; width: 32px; height: 32px;
+}
+
+#social_twitter:hover {
+    background: url('../images/socialsprite.png') 0 -42px no-repeat, rgb(136,136,136); /* Old browsers */
+    background: url('../images/socialsprite.png') 0 -42px no-repeat, -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(136,136,136,1) 100%); /* FF3.6+ */
+    background: url('../images/socialsprite.png') 0 -42px no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(136,136,136,1)), color-  stop(100%, rgba(136,136,136,1))); /* Chrome,Safari4+ */
+    background: url('../images/socialsprite.png') 0 -42px no-repeat, -webkit-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(136,136,136,1) 100%); /* 
+
+Chrome10+,Safari5.1+ */
+    background: url('../images/socialsprite.png') 0 -42px no-repeat, -o-linear-gradient(top, rgba(238,238,238,1)0%, rgba(136,136,136,1) 100%); /* Opera 11.10+ */
+    background: url('../images/socialsprite.png') 0 -42px no-repeat, -ms-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(136,136,136,1)100%); /* IE10+ */
+    background: url('../images/socialsprite.png') 0 -42px no-repeat, linear-gradient(to bottom, rgba(238,238,238,1) 0%, rgba(136,136,136,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#565656', GradientType=0 ); /* IE6-9 */
+}
+
+#social_linkedin {
+    float: left; 
+    background: #CCC url('../images/socialsprite.png') no-repeat 0 -84px; width: 32px; height: 32px;
+}
+
+#social_linkedin:hover {
+    background: url('../images/socialsprite.png') 0 -84px no-repeat, rgb(136,136,136); /* Old browsers */
+    background: url('../images/socialsprite.png') 0 -84px no-repeat, -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(136,136,136,1) 100%); /* FF3.6+ */
+    background: url('../images/socialsprite.png') 0 -84px no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(136,136,136,1)), color-  stop(100%, rgba(136,136,136,1))); /* Chrome,Safari4+ */
+    background: url('../images/socialsprite.png') 0 -84px no-repeat, -webkit-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(136,136,136,1) 100%); /* 
+
+Chrome10+,Safari5.1+ */
+    background: url('../images/socialsprite.png') 0 -84px no-repeat, -o-linear-gradient(top, rgba(238,238,238,1)0%, rgba(136,136,136,1) 100%); /* Opera 11.10+ */
+    background: url('../images/socialsprite.png') 0 -84px no-repeat, -ms-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(136,136,136,1)100%); /* IE10+ */
+    background: url('../images/socialsprite.png') 0 -84px no-repeat, linear-gradient(to bottom, rgba(238,238,238,1) 0%, rgba(136,136,136,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#565656', GradientType=0 ); /* IE6-9 */
+}
+
+.sub_title {
+    padding-top: 25px;
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+.faculty_wrapper {
+    background: #FFF; 
+    width: 100%;
+    border: solid 1px #000;
+    margin-bottom: 25px;
+}
+
+.faculty_wrapper img {
+    width: 100%;
+}
+
+.faculty_wrapper h4 {
+    text-align: center; 
+    margin-top: 30px;
+}
+
+.faculty_wrapper hr {
+    width: 75%;
+    border-color: #AAA;
+}
+
+.faculty_wrapper p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.dashlet {
+    border: solid 2px #d16e1d; padding: 15px; background: #FFF; border-radius: 25px;
+}
+
+.table_calendar {
+    width: 100%;
+    border: solid 1px #8c0b05;
+}
+
+.table_calendar tr {
+    border-bottom: solid 1px #8c0b05;
+}
+
+.table_calendar td {
+    padding: 3px;
+    background: #FFF;
+}
+
+.table_calendar th {
+    padding: 3px;
+    background: #d16e1d;
+    color: #FFF;
+}
+
+.testimonial {
+    padding: 0 0 0 100px; font-size: 1.3em; background: transparent url('images/icon_blockquote.png') no-repeat 0px 0;
+}
+
+.testimonial_source {
+    text-align: right; font-size: 1.2em;
+}
+
+.membership_title {
+    text-align: center;
+}
+
+.membership_title span {
+    background: #86759f; color: #FFF; border-radius: 10px; display:inline-block; padding: 10px;
+}
+
+#signaure_title span { background: #86759F; }
+#premier_title span { background: #25608c; }
+#choice_title span { background: #8f8a2f; }
+#family_title span { background: #a7a9ac; }
